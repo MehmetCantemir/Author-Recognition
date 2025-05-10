@@ -3,7 +3,7 @@
 <h2>Introduction</h2>
 In this project assignment, a system was developed to analyze texts written by different authors and predict the author of an unknown text.
 For this purpose, various feature extraction methods were applied, including TF-IDF-based word features.
-Using these representations, classification was performed with various machine learning algorithms such as Random Forest.
+Using these representations, classification was performed with various machine learning algorithms such as MLP(Multi Layer Perceptron).
 
 <h2> Materials and Methods </h2>
 
@@ -13,7 +13,7 @@ This project aims to develop a text classification system capable of predicting 
 The project includes steps such as data analysis, feature extraction, model development, and evaluation of results. 
 The development process was carried out in the Google Colab environment, a cloud-based Jupyter Notebook platform that enables interactive work in data science and machine learning projects.
 The Python programming language was used throughout the project. For text representation, TF-IDF, was applied.
-For classification, various models were trained and compared using algorithm such as Random Forest.
+For classification, various models were trained and compared using algorithm such as MLP(Multi Layer Perceptron).
 
 <h3> Dataset </h3>
 The dataset used in the scope of the project was accessed through the integration of Google Drive with the Google Colab environment. 
@@ -43,5 +43,8 @@ It is the harmonic mean of precision and recall and is a more meaningful perform
 
 In this study, author classification was performed using various text representation techniques and machine learning algorithms.
 The models were evaluated using an 80% training and 20% testing split, and their performance was assessed based on Accuracy, Precision, Recall, and F1-Score metrics.
+
+![image](https://github.com/user-attachments/assets/0871f3d1-2c97-4ca7-bdb7-9c56fe4b877f)
+
 
 
